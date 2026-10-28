@@ -55,6 +55,8 @@ Set `MONGODB_URI`, `JWT_SECRET`, `CLIENT_URL`, `PORT`, `NODE_ENV=production`, `C
 
 The included `render.yaml` describes the backend web service and frontend static site. Set all `sync: false` values in Render; no secret values are stored in the repository. The backend health check is `/api/v1/health`. Local resume storage is private but ephemeral unless a Render persistent disk is mounted at `/var/data`; use private object storage for durable multi-instance production storage.
 
+For the free Render plan, the blueprint uses the private temporary directory `/tmp/smarthire-private-uploads` for resumes. Uploaded resumes may be lost after redeploys, restarts, or spin-down; do not claim resume persistence without private durable storage.
+
 Local commands:
 
 ```powershell

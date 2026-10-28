@@ -5,11 +5,8 @@ services:
     rootDir: backend
     buildCommand: npm ci
     startCommand: npm start
+    plan: free
     healthCheckPath: /api/v1/health
-    disk:
-      name: smarthire-resumes
-      mountPath: /var/data
-      sizeGB: 1
     envVars:
       - key: NODE_ENV
         value: production
@@ -24,7 +21,7 @@ services:
       - key: RESUME_STORAGE
         value: local
       - key: RESUME_STORAGE_DIR
-        value: /var/data/private-uploads
+        value: /tmp/smarthire-private-uploads
 
   - type: web
     name: smarthire-frontend
