@@ -1,0 +1,81 @@
+
+export const jobs = [
+  {
+    id: "1",
+    title: "Frontend Developer Intern",
+    company: "TechNova",
+    location: "Noida, Uttar Pradesh",
+    type: "Internship",
+    category: "Development",
+    salary: "₹10,000–₹15,000/month",
+    experience: "Fresher",
+    description:
+      "Work with a development team to build responsive web interfaces using React, JavaScript, HTML, and CSS.",
+    skills: ["React", "JavaScript", "HTML", "CSS"],
+  },
+  {
+    id: "2",
+    title: "Junior Full Stack Developer",
+    company: "PixelStack",
+    location: "Gurugram, Haryana",
+    type: "Full-time",
+    category: "Development",
+    salary: "₹4–6 LPA",
+    experience: "0–1 years",
+    description:
+      "Help build and maintain web applications using React, Node.js, Express, and database technologies.",
+    skills: ["React", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    id: "3",
+    title: "Data Analyst Intern",
+    company: "InsightWorks",
+    location: "Remote",
+    type: "Internship",
+    category: "Data Analytics",
+    salary: "₹8,000–₹12,000/month",
+    experience: "Fresher",
+    description:
+      "Assist with data cleaning, analysis, reporting, and visualisation to help teams make data-driven decisions.",
+    skills: ["Python", "SQL", "Excel", "Power BI"],
+  },
+  {
+    id: "4",
+    title: "UI/UX Designer",
+    company: "DesignOrbit",
+    location: "Delhi, India",
+    type: "Full-time",
+    category: "Design",
+    salary: "₹3–5 LPA",
+    experience: "1–2 years",
+    description:
+      "Create intuitive user experiences, wireframes, prototypes, and polished interfaces for web products.",
+    skills: ["Figma", "Wireframing", "Prototyping", "UI Design"],
+  },
+  {
+    id: "5",
+    title: "Backend Developer Intern",
+    company: "CloudBridge",
+    location: "Remote",
+    type: "Internship",
+    category: "Development",
+    salary: "₹12,000/month",
+    experience: "Fresher",
+    description:
+      "Work on APIs, server-side development, authentication, and database integration with experienced developers.",
+    skills: ["Node.js", "Express", "REST APIs", "MongoDB"],
+  },
+  {
+    id: "6",
+    title: "Software Engineer",
+    company: "NextGen Systems",
+    location: "Bengaluru, Karnataka",
+    type: "Full-time",
+    category: "Development",
+    salary: "₹6–9 LPA",
+    experience: "1–3 years",
+    description:
+      "Develop software features, write maintainable code, fix bugs, and collaborate with product and engineering teams.",
+    skills: ["Java", "JavaScript", "Git", "Problem Solving"],
+  },
+];
