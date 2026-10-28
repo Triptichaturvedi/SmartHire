@@ -6,6 +6,10 @@ services:
     buildCommand: npm ci
     startCommand: npm start
     healthCheckPath: /api/v1/health
+    disk:
+      name: smarthire-resumes
+      mountPath: /var/data
+      sizeGB: 1
     envVars:
       - key: NODE_ENV
         value: production
